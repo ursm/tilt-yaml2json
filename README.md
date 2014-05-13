@@ -25,6 +25,14 @@ Tilt.register Tilt::YAML2JSONTemplate, 'yml'
 puts Tilt.new('foo.yml').render
 ```
 
+or
+
+``` ruby
+require 'tilt/yaml2json/register'
+
+puts Tilt.new('foo.yml').render
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/ursm/tilt-yaml2json/fork )
