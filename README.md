@@ -20,7 +20,7 @@ Or install it yourself as:
 require 'tilt'
 require 'tilt/yaml2json'
 
-Tilt.register Tilt::YAML2JSONTemplate, 'yml'
+Tilt.register Tilt::YAML2JSON::Template, 'yml'
 
 puts Tilt.new('foo.yml').render
 ```

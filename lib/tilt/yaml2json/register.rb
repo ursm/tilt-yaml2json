@@ -1,4 +1,4 @@
 require 'tilt'
-require 'tilt/yaml2json'
+require 'tilt/yaml2json/template'
 
-Tilt.register Tilt::YAML2JSONTemplate, 'yml', 'yaml'
+Tilt.register Tilt::YAML2JSON::Template, 'yml', 'yaml'
