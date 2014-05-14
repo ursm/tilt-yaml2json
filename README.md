@@ -1,5 +1,9 @@
 # Tilt::YAML2JSON
 
+[![Gem Version](https://badge.fury.io/rb/tilt-yaml2json.svg)](http://badge.fury.io/rb/tilt-yaml2json)
+[![Build Status](https://travis-ci.org/ursm/tilt-yaml2json.svg?branch=master)](https://travis-ci.org/ursm/tilt-yaml2json)
+[![Dependency Status](https://gemnasium.com/ursm/tilt-yaml2json.svg)](https://gemnasium.com/ursm/tilt-yaml2json)
+
 ## Installation
 
 Add this line to your application's Gemfile:
