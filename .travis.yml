@@ -1,0 +1,6 @@
+language: ruby
+rvm: 2.1.0
+
+gemfile:
+  - gemfiles/tilt_1.gemfile
+  - gemfiles/tilt_2.gemfile
