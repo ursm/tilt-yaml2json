@@ -1,6 +1,6 @@
 require 'tilt/template'
 require 'yaml'
-require 'json'
+require 'multi_json'
 
 module Tilt
   module YAML2JSON
@@ -12,7 +12,7 @@ module Tilt
       end
 
       def evaluate(*)
-        @output ||= JSON.pretty_generate(YAML.load(data))
+        @output ||= MultiJson.dump(YAML.load(data), pretty: true)
       end
 
       def allows_script?
